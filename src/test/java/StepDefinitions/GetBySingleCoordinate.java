@@ -14,14 +14,14 @@ public class GetBySingleCoordinate {
     private Response response;
     private String restendpoint= UtilBase.getBaseUrl();
 
-    @Given("^I have single coordinate$")
+    @Given("^I have only one coordinate$")
     public void settingUpUrl(){
         String coordinate=UtilBase.getSingleCoordinate();
         restendpoint=restendpoint+coordinate;
 
     }
 
-    @When("I get weather information$")
+    @When("I retrieve weather information for single coordinate$")
     public void retrieveDataWithSinglePoint(){
         try{
 
@@ -34,10 +34,10 @@ public class GetBySingleCoordinate {
 
     }
 
-    @Then("^the status code from the api should be (\\d+)$")
-    public void statusCodeAssert(int expected_status_code)
+    @Then("^I should get an error response$")
+    public void statusCodeAssert()
     {
-       Assert.assertEquals(response.getStatusCode(),expected_status_code,"Actual status code did not match expected status code");
+       Assert.assertEquals(response.getStatusCode(),UtilBase.getErrorStatusCode(),"Actual status code did not match expected status code");
 
     }
 

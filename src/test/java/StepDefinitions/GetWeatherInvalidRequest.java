@@ -23,7 +23,7 @@ public class GetWeatherInvalidRequest {
 
     }
 
-    @When("I get the weather info$")
+    @When("I get the weather information$")
     public void retrieveDataWithInvalidPoints(){
         try{
             response= RestAssured.get(restendpoint).then().extract().response();
@@ -35,10 +35,10 @@ public class GetWeatherInvalidRequest {
 
     }
 
-    @Then("^the status code returned from the api should be equal to (\\d+)$")
-    public void statusCodeAssert(int expected_status_code)
+    @Then("^the api should send me error response code$")
+    public void statusCodeAssert()
     {
-        Assert.assertEquals(response.getStatusCode(),expected_status_code,"Actual status code did not match expected status code");
+        Assert.assertEquals(response.getStatusCode(),UtilBase.getErrorStatusCode(),"Actual status code did not match expected status code");
 
     }
 

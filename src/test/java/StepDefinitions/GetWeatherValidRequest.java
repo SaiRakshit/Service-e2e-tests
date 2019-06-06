@@ -21,14 +21,14 @@ public class GetWeatherValidRequest {
     private String restendpoint= UtilBase.getBaseUrl();
 
 
-        @Given("a valid location exists with coordinates(.*)")
+        @Given("a valid location exists for coordinates(.*)")
         public void validPoints (String coordinates){
         restendpoint=restendpoint+coordinates;
         System.out.println(restendpoint);
 
     }
 
-        @When("I retrieve the weather info$")
+        @When("I retrieve weather information$")
         public void retrieveData () {
             try {
                 response = RestAssured.when().get(restendpoint).then().extract().response();
@@ -39,11 +39,11 @@ public class GetWeatherValidRequest {
 
     }
 
-        @Then("^the status code returned from the api should be (\\d+)$")
-        public void statusCodeAssert (int actual_status_code)
+        @Then("^I should get requested data$")
+        public void statusCodeAssert ()
         {
 
-                Assert.assertEquals(response.getStatusCode(), actual_status_code,"Actual status code did not match expected status code");
+                Assert.assertEquals(response.getStatusCode(),UtilBase.getValidStatusCode(),"Actual status code did not match expected status code");
 
         }
 

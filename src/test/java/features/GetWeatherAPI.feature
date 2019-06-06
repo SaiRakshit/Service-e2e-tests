@@ -1,19 +1,18 @@
 Feature: Testing status codes and response body assertions on Weather API GET request
 
 Scenario: Getting weather info for valid coordinates
- Given a valid location exists with coordinates33.946213,-84.334648
- When I retrieve the weather info
- Then the status code returned from the api should be 200
+ Given a valid location exists for coordinates33.946213,-84.334648
+ When I retrieve weather information
+ Then I should get requested data
  And the city should be Dunwoody
  And the state should be GA
  And current temperature should be equal to 85 degrees
  And response time should be less than 20ms
 
-
 Scenario: Getting weather info for invalid coordinates
  Given a location does not exist for coordinates 10,20
- When I get the weather info
- Then the status code returned from the api should be equal to 404
+ When I get the weather information
+ Then the api should send me error response code
  And the title should be equal to Data Unavailable For Requested Point
 
 Scenario: Comparing expected Json Schema to match actual response
@@ -32,14 +31,14 @@ Scenario: Comparing invalid Json Schema to not match actual response
   Then the response should not match the schema
 
  Scenario: Retrieving data for single coordinate
-  Given I have single coordinate
-  When I get weather information
-  Then the status code from the api should be 404
+  Given I have only one coordinate
+  When I retrieve weather information for single coordinate
+  Then I should get an error response
 
  Scenario: Performing unauthorized action
+  Given I don't have access to create data
   When I try to upload data
-  Then the the api should deny it
-
+  Then the api should deny it
 
 
 

@@ -16,17 +16,17 @@ formatter.scenario({
 });
 formatter.step({
   "line": 4,
-  "name": "a valid location exists with coordinates33.946213,-84.334648",
+  "name": "a valid location exists for coordinates33.946213,-84.334648",
   "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "I retrieve the weather info",
+  "name": "I retrieve weather information",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "the status code returned from the api should be 200",
+  "name": "I should get requested data",
   "keyword": "Then "
 });
 formatter.step({
@@ -53,33 +53,27 @@ formatter.match({
   "arguments": [
     {
       "val": "33.946213,-84.334648",
-      "offset": 40
+      "offset": 39
     }
   ],
   "location": "GetWeatherValidRequest.validPoints(String)"
 });
 formatter.result({
-  "duration": 81082914,
+  "duration": 110045131,
   "status": "passed"
 });
 formatter.match({
   "location": "GetWeatherValidRequest.retrieveData()"
 });
 formatter.result({
-  "duration": 1035441130,
+  "duration": 1317385581,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "200",
-      "offset": 48
-    }
-  ],
-  "location": "GetWeatherValidRequest.statusCodeAssert(int)"
+  "location": "GetWeatherValidRequest.statusCodeAssert()"
 });
 formatter.result({
-  "duration": 1982410,
+  "duration": 1236803,
   "status": "passed"
 });
 formatter.match({
@@ -92,7 +86,7 @@ formatter.match({
   "location": "GetWeatherValidRequest.cityAssert(String)"
 });
 formatter.result({
-  "duration": 276171707,
+  "duration": 250497410,
   "status": "passed"
 });
 formatter.match({
@@ -105,7 +99,7 @@ formatter.match({
   "location": "GetWeatherValidRequest.stateAssert(String)"
 });
 formatter.result({
-  "duration": 14719736,
+  "duration": 14348716,
   "status": "passed"
 });
 formatter.match({
@@ -118,8 +112,8 @@ formatter.match({
   "location": "GetWeatherValidRequest.currentTemperatureAssert(int)"
 });
 formatter.result({
-  "duration": 206716093,
-  "error_message": "java.lang.AssertionError: Current temperature did not match expected temperature expected [85] but found [70]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:652)\n\tat StepDefinitions.GetWeatherValidRequest.currentTemperatureAssert(GetWeatherValidRequest.java:74)\n\tat ✽.And current temperature should be equal to 85 degrees(GetWeatherAPI.feature:9)\n",
+  "duration": 208969835,
+  "error_message": "java.lang.AssertionError: Current temperature did not match expected temperature expected [85] but found [80]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:652)\n\tat StepDefinitions.GetWeatherValidRequest.currentTemperatureAssert(GetWeatherValidRequest.java:74)\n\tat ✽.And current temperature should be equal to 85 degrees(GetWeatherAPI.feature:9)\n",
   "status": "failed"
 });
 formatter.match({
@@ -135,7 +129,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.scenario({
-  "line": 13,
+  "line": 12,
   "name": "Getting weather info for invalid coordinates",
   "description": "",
   "id": "testing-status-codes-and-response-body-assertions-on-weather-api-get-request;getting-weather-info-for-invalid-coordinates",
@@ -143,22 +137,22 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 14,
+  "line": 13,
   "name": "a location does not exist for coordinates 10,20",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 15,
-  "name": "I get the weather info",
+  "line": 14,
+  "name": "I get the weather information",
   "keyword": "When "
 });
 formatter.step({
-  "line": 16,
-  "name": "the status code returned from the api should be equal to 404",
+  "line": 15,
+  "name": "the api should send me error response code",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "the title should be equal to Data Unavailable For Requested Point",
   "keyword": "And "
 });
@@ -172,27 +166,21 @@ formatter.match({
   "location": "GetWeatherInvalidRequest.settingUpUrl(String)"
 });
 formatter.result({
-  "duration": 138343,
+  "duration": 125250,
   "status": "passed"
 });
 formatter.match({
   "location": "GetWeatherInvalidRequest.retrieveDataWithInvalidPoints()"
 });
 formatter.result({
-  "duration": 159795327,
+  "duration": 250728671,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "404",
-      "offset": 57
-    }
-  ],
-  "location": "GetWeatherInvalidRequest.statusCodeAssert(int)"
+  "location": "GetWeatherInvalidRequest.statusCodeAssert()"
 });
 formatter.result({
-  "duration": 126859,
+  "duration": 73791,
   "status": "passed"
 });
 formatter.match({
@@ -205,11 +193,11 @@ formatter.match({
   "location": "GetWeatherInvalidRequest.titleAssert(String)"
 });
 formatter.result({
-  "duration": 7190382,
+  "duration": 6539894,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 19,
+  "line": 18,
   "name": "Comparing expected Json Schema to match actual response",
   "description": "",
   "id": "testing-status-codes-and-response-body-assertions-on-weather-api-get-request;comparing-expected-json-schema-to-match-actual-response",
@@ -217,17 +205,17 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 20,
+  "line": 19,
   "name": "I have a valid json schema",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 20,
   "name": "I retrieve the weather info for valid coordinates 33.946213,-84.334648",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 21,
   "name": "the response should match the schema",
   "keyword": "Then "
 });
@@ -235,7 +223,7 @@ formatter.match({
   "location": "GetWeatherValidSchemaMatcher.validSchema()"
 });
 formatter.result({
-  "duration": 91481,
+  "duration": 86531,
   "status": "passed"
 });
 formatter.match({
@@ -248,18 +236,18 @@ formatter.match({
   "location": "GetWeatherValidSchemaMatcher.getWeatherAPI(String)"
 });
 formatter.result({
-  "duration": 191265816,
+  "duration": 191741354,
   "status": "passed"
 });
 formatter.match({
   "location": "GetWeatherValidSchemaMatcher.compareSchemaToResponse()"
 });
 formatter.result({
-  "duration": 755088709,
+  "duration": 1057062250,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
+  "line": 23,
   "name": "Comparing expected Json Schema to match error response",
   "description": "",
   "id": "testing-status-codes-and-response-body-assertions-on-weather-api-get-request;comparing-expected-json-schema-to-match-error-response",
@@ -267,17 +255,17 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 25,
+  "line": 24,
   "name": "I have a json schema for error response",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 26,
+  "line": 25,
   "name": "I retrieve the weather info for invalid coordinates 10,20",
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
+  "line": 26,
   "name": "the error response should match the schema",
   "keyword": "Then "
 });
@@ -285,7 +273,7 @@ formatter.match({
   "location": "GetWeatherErrorSchemaMatcher.validSchema()"
 });
 formatter.result({
-  "duration": 86252,
+  "duration": 66889,
   "status": "passed"
 });
 formatter.match({
@@ -298,18 +286,18 @@ formatter.match({
   "location": "GetWeatherErrorSchemaMatcher.getWeatherAPI(String)"
 });
 formatter.result({
-  "duration": 457271466,
+  "duration": 251882234,
   "status": "passed"
 });
 formatter.match({
   "location": "GetWeatherErrorSchemaMatcher.compareSchemaToResponse()"
 });
 formatter.result({
-  "duration": 6800596,
+  "duration": 8900330,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
+  "line": 28,
   "name": "Comparing invalid Json Schema to not match actual response",
   "description": "",
   "id": "testing-status-codes-and-response-body-assertions-on-weather-api-get-request;comparing-invalid-json-schema-to-not-match-actual-response",
@@ -317,25 +305,25 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 30,
+  "line": 29,
   "name": "I have a invalid json schema",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 31,
+  "line": 30,
   "name": "I get weather information for coordinates 10,20",
   "keyword": "When "
 });
 formatter.step({
-  "line": 32,
+  "line": 31,
   "name": "the response should not match the schema",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "GetWeatherNonMatchingSchema.validSchema()"
+  "location": "GetWeatherNonMatchingSchema.nonMatchingSchema()"
 });
 formatter.result({
-  "duration": 91073,
+  "duration": 99002,
   "status": "passed"
 });
 formatter.match({
@@ -348,18 +336,18 @@ formatter.match({
   "location": "GetWeatherNonMatchingSchema.getWeatherAPI(String)"
 });
 formatter.result({
-  "duration": 159731614,
+  "duration": 163212976,
   "status": "passed"
 });
 formatter.match({
   "location": "GetWeatherNonMatchingSchema.compareSchemaToResponse()"
 });
 formatter.result({
-  "duration": 6518379,
+  "duration": 6534428,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 34,
+  "line": 33,
   "name": "Retrieving data for single coordinate",
   "description": "",
   "id": "testing-status-codes-and-response-body-assertions-on-weather-api-get-request;retrieving-data-for-single-coordinate",
@@ -367,54 +355,53 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 35,
-  "name": "I have single coordinate",
+  "line": 34,
+  "name": "I have only one coordinate",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 36,
-  "name": "I get weather information",
+  "line": 35,
+  "name": "I retrieve weather information for single coordinate",
   "keyword": "When "
 });
 formatter.step({
-  "line": 37,
-  "name": "the status code from the api should be 404",
+  "line": 36,
+  "name": "I should get an error response",
   "keyword": "Then "
 });
 formatter.match({
   "location": "GetBySingleCoordinate.settingUpUrl()"
 });
 formatter.result({
-  "duration": 97470,
+  "duration": 101742,
   "status": "passed"
 });
 formatter.match({
   "location": "GetBySingleCoordinate.retrieveDataWithSinglePoint()"
 });
 formatter.result({
-  "duration": 225158080,
+  "duration": 315205345,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "404",
-      "offset": 39
-    }
-  ],
-  "location": "GetBySingleCoordinate.statusCodeAssert(int)"
+  "location": "GetBySingleCoordinate.statusCodeAssert()"
 });
 formatter.result({
-  "duration": 161462,
+  "duration": 80291,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 39,
+  "line": 38,
   "name": "Performing unauthorized action",
   "description": "",
   "id": "testing-status-codes-and-response-body-assertions-on-weather-api-get-request;performing-unauthorized-action",
   "type": "scenario",
   "keyword": "Scenario"
+});
+formatter.step({
+  "line": 39,
+  "name": "I don\u0027t have access to create data",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 40,
@@ -423,21 +410,28 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "the the api should deny it",
+  "name": "the api should deny it",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "PostRequest.retrieveDataWithInvalidPoints()"
+  "location": "PostRequest.checkAccess()"
 });
 formatter.result({
-  "duration": 173341446,
+  "duration": 96921,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PostRequest.postEmptyData()"
+});
+formatter.result({
+  "duration": 208389965,
   "status": "passed"
 });
 formatter.match({
   "location": "PostRequest.statusCodeAssert()"
 });
 formatter.result({
-  "duration": 51488,
+  "duration": 53802,
   "status": "passed"
 });
 });

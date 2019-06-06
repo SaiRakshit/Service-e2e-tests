@@ -16,19 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/GetWeatherAPI.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/PostRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="444">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +27,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/cucumber-html-report/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/GetWeatherAPI.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetBySingleCoordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="434">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +60,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/UtilBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="540">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherValidRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="487">
+              <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherInvalidRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="290">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,6 +147,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -149,13 +167,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber/runner/CucumberTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherErrorSchemaMatcher.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherInvalidRequest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherValidRequest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/UtilBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetBySingleCoordinate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/GetWeatherAPI.feature" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherNonMatchingSchema.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/UtilBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/PostRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetBySingleCoordinate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherValidRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/GetWeatherAPI.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherInvalidRequest.java" />
       </list>
     </option>
   </component>
@@ -191,6 +209,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -259,6 +278,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StepDefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Service-e2e-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Service-e2e-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Service-e2e-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Service-e2e-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-html-report" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -267,6 +297,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -389,34 +420,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucumberTests - 2019.06.05 at 23h 54m 06s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 09h 28m 43s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 00h 59m 19s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 09h 30m 36s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 01h 01m 52s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 09h 32m 27s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 01h 36m 08s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 09h 41m 11s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 01h 37m 24s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 09h 46m 53s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 01h 38m 38s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 09h 47m 48s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 01h 40m 51s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 09h 56m 02s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 01h 41m 53s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 10h 01m 07s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 01h 43m 05s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 10h 13m 32s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTests - 2019.06.06 at 02h 00m 38s.xml">
+    <history-entry file="CucumberTests - 2019.06.06 at 10h 15m 28s.xml">
       <configuration name="CucumberTests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -433,15 +464,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82905984" weight="0.33979592" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8235653" visible="true" weight="0.33979592" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.493895" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.52625155" side_tool="true" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.17643468" side_tool="true" visible="true" weight="0.33979592" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47374848" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.46825397" weight="0.32959184" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,37 +516,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/UtilBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherValidSchemaMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="472">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/GetWeatherAPI.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/PostRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-html-report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="444">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetBySingleCoordinate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        <state relative-caret-position="434">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,12 +556,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherInvalidRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherValidRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="487">
+          <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/UtilBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -552,33 +595,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherValidRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherInvalidRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="290">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/GetWeatherValidSchemaMatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/GetWeatherAPI.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="603">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/PostRequest.java">
+    <entry file="file://$PROJECT_DIR$/target/cucumber-html-report/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
