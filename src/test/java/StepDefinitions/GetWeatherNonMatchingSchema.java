@@ -17,7 +17,7 @@ public class GetWeatherNonMatchingSchema {
 
 
     @Given("^I have a invalid json schema")
-    public void validSchema()
+    public void nonMatchingSchema()
     {
         filename="file.json";
     }

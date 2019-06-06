@@ -12,7 +12,7 @@ public class PostRequest {
 
 
     @When("I try to upload data$")
-    public void retrieveDataWithInvalidPoints(){
+    public void postEmptyData(){
         try{
             response= RestAssured.post(UtilBase.getBaseUrl()).then().extract().response();
         }catch (Exception e){
