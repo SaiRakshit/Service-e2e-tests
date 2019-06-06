@@ -1,0 +1,31 @@
+{
+  "description": "Expected Schema for Invalid Points/Co-ordinates",
+  "type": "object",
+  "properties": {
+
+    "correlationId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "pattern": "^(https)://"
+    },
+    "status": {
+      "type": "integer"
+
+    },
+    "detail": {
+      "type": "string"
+    },
+    "instance": {
+      "type": "string",
+      "pattern": "^(https://)"
+    }
+
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,9 @@
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/GetWeatherNonMatchingSchema.java
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/GetWeatherInvalidRequest.java
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/GetBySingleCoordinate.java
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/GetWeatherValidSchemaMatcher.java
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/UtilBase.java
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/GetWeatherValidRequest.java
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/PostRequest.java
+/Applications/Service-e2e-tests/src/test/java/StepDefinitions/GetWeatherErrorSchemaMatcher.java
+/Applications/Service-e2e-tests/src/test/java/cucumber/runner/CucumberTests.java
